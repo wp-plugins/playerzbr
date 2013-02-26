@@ -44,8 +44,8 @@ An answer to that question.
 
 == Screenshots ==
 
-1. http://i49.tinypic.com/6gc7ia.png - On Google Chrome
-2. http://i45.tinypic.com/s5bkg4.png - On IE 9
+1. http://infocompare.com.br/teste/wp-content/uploads/2013/02/screenshot-1.png - On Google Chrome
+2. http://infocompare.com.br/teste/wp-content/uploads/2013/02/Capturar.png - On IE 9
 
 == Changelog ==
 
