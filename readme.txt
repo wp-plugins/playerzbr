@@ -1,7 +1,7 @@
 === Playerzbr ===
 Contributors: 
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=6WQ566DAC4YF8
-Tags: player,playerzbr,streaming
+Tags: player,playerzbr,streaming,html5,Player html5,audio,audio html5
 Requires at least: 3.3
 Tested up to: 3.5.1
 Stable tag: 
