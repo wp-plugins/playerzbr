@@ -21,7 +21,7 @@ Made with HTML 5 aims to better performance for your users!
 
 Thanks For Use and Evaluate!
 
-PT-BR - Português do Brasil
+PT-BR - Portugues do Brasil
 
 O Plugin PlayerZBR permite o usuario a adicionar um player em HTML 5, usando a sua url de seu streaming, ideal parta radios online e site de musicos.
 Feito com HTML 5 visa a melhor performance para seus usuarios!
