@@ -79,14 +79,14 @@ function plx_pagina_opcoes_content() {
   <h2>Painel PlayerZBR</h2>
  <form method="post" action="options.php">
     <?php wp_nonce_field('update-options') ?><p>
-  <strong>URL de Streaming:</strong><input type="text" name="url" size="80" placeholder="Sua Url Aqui" value="<?php echo get_option('url'); ?>" /><br />
-	<input type="submit" name="botenvia" value="Salvar Alterações" />
+  <strong>URL de Streaming:</strong><input type="text" name="url" size="80" placeholder="You URL Here" value="<?php echo get_option('url'); ?>" /><br />
+	<input type="submit" name="botenvia" value="Save Modifications" />
   </p>
 <input type="hidden" name="action" value="update" />
     <input type="hidden" name="page_options" value="url" />
   </form>
   <br />
-  <p>Desenvolvido Por Pedro Laxe &copy; 2013 - <a href="http://facebook.com/pedrolaxe">Facebook</a> - <a href="http://twitter.com/pedrolaxe">Twitter</a></p>
+  <p>Developed by Pedro Laxe &copy; 2013 - <a href="http://facebook.com/pedrolaxe">Facebook</a> - <a href="http://twitter.com/pedrolaxe">Twitter</a></p>
 </div>
 <?php
 }
