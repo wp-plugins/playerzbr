@@ -2,7 +2,7 @@
 /*
 Plugin Name: PlayerZBR
 Description: O plugin funciona como player HTML 5 de streaming de audio.
-Version: 1.0
+Version: 1.1
 Author: Pedro Laxe
 Author URI: http://phpsec.wordpress.com
 License: GPLv2
@@ -55,7 +55,7 @@ function plx_install_hook() {
 
 function add_player(){
 	$player1 = '
-				<audio controls>
+				<audio controls '.get_option('autoplay').'>
   <source src="'.get_option('url').'" type="audio/mpeg">
 </audio>
 			   ';
@@ -75,18 +75,33 @@ function plx_pagina_opcoes() {
 function plx_pagina_opcoes_content() {
 ?>
 <div class="corpo">
-  <?php screen_icon(); ?>
+  <?php screen_icon( 'plugins' ); ?>
   <h2>Painel PlayerZBR</h2>
+ 
  <form method="post" action="options.php">
     <?php wp_nonce_field('update-options') ?><p>
-  <strong>URL de Streaming:</strong><input type="text" name="url" size="80" placeholder="You URL Here" value="<?php echo get_option('url'); ?>" /><br />
-	<input type="submit" name="botenvia" value="Save Modifications" />
-  </p>
+  <table width="800" border="0">
+  <tr>
+    <td><strong>URL de Streaming:</strong></td>
+    <td><input type="text" name="url" size="80" placeholder="You URL Here" value="<?php echo get_option('url'); ?>" /></td>
+  </tr>
+  <tr>
+    <td><strong>Autoplay:</strong></td>
+    <td><select name="autoplay">&nbsp;Choice for yes or no
+                	<option value="autoplay" <?php if(get_option('autoplay')=="autoplay"){echo 'selected="selected"';} ?>>yes</option>
+                    <option value="" <?php if(get_option('autoplay')==""){echo 'selected="selected"';} ?>>no</option></select>
+   </td>
+  </tr>
+  <tr>
+    <td><input type="submit" name="botenvia" value="Save Modifications" /></td>
+  </tr>
+</table>
+</p>
 <input type="hidden" name="action" value="update" />
-    <input type="hidden" name="page_options" value="url" />
+    <input type="hidden" name="page_options" value="url,autoplay" />
   </form>
   <br />
-  <p>Developed by Pedro Laxe &copy; 2013 - <a href="http://facebook.com/pedrolaxe">Facebook</a> - <a href="http://twitter.com/pedrolaxe">Twitter</a></p>
+  <p>Developed by Pedro Laxe &copy; 2013 - <a href="https://facebook.com/pedrolaxe">Facebook</a> - <a href="http://twitter.com/pedrolaxe">Twitter</a></p>
 </div>
 <?php
 }

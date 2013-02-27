@@ -4,11 +4,11 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: player,playerzbr,streaming,html5,Player html5,audio,audio html5
 Requires at least: 3.3
 Tested up to: 3.5.1
-Stable tag: 
+Stable tag: 1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-PlayerZBr is the streaming player to your radio or your online music site, done in HTML 5 for you to use with streaming audio.
+PlayerZBr is the streaming html 5 player to your radio or your online music site.
 
 PS - Mozilla Firefox is not Supported Audio HTML 5
 
@@ -50,6 +50,8 @@ An answer to that question.
 == Changelog ==
 
 PlayerZBR 1.0 - was created
+
+PlayerZBR 1.1- add option autoplay
 
 == Upgrade notice ==
 
