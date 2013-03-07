@@ -14,21 +14,21 @@ PS - Mozilla Firefox is not Supported Audio HTML 5
 
 == Description ==
 
-US - English
+= US - English =
 
 PlayerZBR The Plugin allows the user to add a player in HTML 5, using your url of your streaming, online radio stations and depart ideal site for musicians.
 Made with HTML 5 aims to better performance for your users!
 
 Thanks For Use and Evaluate!
 
-PT-BR - Portugues do Brasil
+= PT-BR - Portugues do Brasil =
 
 O Plugin PlayerZBR permite o usuario a adicionar um player em HTML 5, usando a sua url de seu streaming, ideal parta radios online e site de musicos.
 Feito com HTML 5 visa a melhor performance para seus usuarios!
 
 Obrigado Por Usar e Avaliem!
 
-OBS -  O Browser Mozilla Firefox nao suporta Audio em HTML 5
+OBS - O Browser Mozilla Firefox nao suporta Audio em HTML 5
 
 == Installation ==
 
@@ -50,7 +50,9 @@ An answer to that question.
 
 PlayerZBR 1.0 - was created
 
-PlayerZBR 1.1- add option autoplay
+PlayerZBR 1.1 - add option autoplay
+
+Playerzbr 1.2 - add option width, bug fixed on IE 9, re design on plugin pages
 
 == Upgrade notice ==
 
