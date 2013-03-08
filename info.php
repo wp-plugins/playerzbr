@@ -1,6 +1,4 @@
-
 <div class="corpo-info" style="margin-left:10px; margin-top:10px;">
-
 <h1 align="center">Plugin Information</h1>
 <p align="center">
 <table width="250" border="0">
@@ -34,7 +32,6 @@
  </tr>
  </table><br />
 <br />
-
 <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=6WQ566DAC4YF8"><img src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" alt="donate"></a>
 </p>
 </div>

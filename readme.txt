@@ -52,7 +52,9 @@ PlayerZBR 1.0 - was created
 
 PlayerZBR 1.1 - add option autoplay
 
-Playerzbr 1.2 - add option width, bug fixed on IE 9, re design on plugin pages
+PlayerZBR 1.2 - add option width, bug fixed on IE 9, re design on plugin pages
+
+PlayerZBR 1.2.1 - bug headers already sent fixed 
 
 == Upgrade notice ==
 

@@ -2,7 +2,7 @@
 /*
 Plugin Name: PlayerZBR
 Description: PlayerZBR is a player HTML 5 audio streaming.
-Version: 1.2
+Version: 1.2.1
 Author: Pedro Laxe
 Author URI: http://phpsec.wordpress.com
 License: GPLv2
@@ -46,21 +46,6 @@ function plx_install_hook() {
  
 }
 }	
-?>
-<style type="text/css">
-
-audio #pl1{
-	width:<?php get_option('wid')?>px;
-    height:auto;
-}
-
-audio{
-	width:<?php get_option('wid')?>px;
-    height:auto;
-}
-
-</style>
-<?php
 /*** Function add PlayerZBR ***/
 function add_player(){
 	
@@ -110,8 +95,9 @@ function plx_pagina_opcoes() {
 function plx_pag_info(){
 	include "info.php";
 }
+//add o shortcode
+add_shortcode('playerzbr', 'add_player');
 /******* Page Playerzbr options *******/
-
 function plx_pagina_opcoes_content() {
 ?>
 <div class="corpo">
@@ -144,23 +130,13 @@ function plx_pagina_opcoes_content() {
 </table>
 <br />
 <br />
-
-<table width="800" border="0">
-  <tr>
-  <td><font size="2"><strong>Usage methods:</strong></font></td>
-  <td><font size="2">Text mode: &#91;playerzbr&#93; &nbsp;&nbsp;|&nbsp;&nbsp; PHP mode: &#60;?php echo do_shortcode( '&#91;playerzbr&#93;' ); ?&#62; </font></td>
- </tr>
- </table>
 </font>
 </p>
 <input type="hidden" name="action" value="update" />
     <input type="hidden" name="page_options" value="url,autoplay,wid" />
   </form> 
   <br />
-  <p>Developed by Pedro Laxe &copy; 2013 - <a href="https://facebook.com/pedrolaxe">Facebook</a> - <a href="http://twitter.com/pedrolaxe">Twitter</a>&nbsp;- <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=6WQ566DAC4YF8">Donate Here</a></p><br />
-
+  <p>Developed by Pedro Laxe &copy; 2013 - <a href="https://facebook.com/pedrolaxe">Facebook</a> - <a href="http://twitter.com/pedrolaxe">Twitter</a>&nbsp;- <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=6WQ566DAC4YF8">Donate Here</a></p>
 </div>
 <?php
 }
-//add o shortcode
-add_shortcode('playerzbr', 'add_player');
