@@ -62,13 +62,12 @@ function add_player(){
 			   return $player1;
 }
 
-add_action( 'admin_menu', 'plx_pagina_opcoes' );
+add_action( 'admin_menu', 'plx_pagina_opcoes' ); 
  
 function plx_pagina_opcoes() {
   // criamos a pagina de opções com esta função
   add_menu_page( 'PlayerZBR', 'PlayerZBR', 'manage_options', 'PlayerZBR', 'plx_pagina_opcoes_content' ); 
 }
-
 // Interior da página de Opções.
 // Esta função imprime o conteúdo da página no ecrã.
 // O HTML necessário encontra-se já escrito.
