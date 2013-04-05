@@ -4,7 +4,7 @@ Plugin Name: PlayerZBR
 Description: PlayerZBR is a player HTML 5 audio streaming.
 Version: 1.2.1
 Author: Pedro Laxe
-Author URI: http://phpsec.wordpress.com
+Author URI: http://www.phpsec.com.br/
 License: GPLv2
 */
 
