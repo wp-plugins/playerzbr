@@ -8,7 +8,7 @@
   </tr>
   <tr>
     <td><strong>Plugin Version:</strong></td>
-    <td>1.2</td>
+    <td>1.2.1</td>
   </tr>
   <tr>
     <td><strong>Wordpress version:</strong></td>
