@@ -8,8 +8,7 @@ Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-PlayerZBr is the streaming html 5 player to your radio or your online music site.
-
+PlayerZBr is the streaming html 5 player and music files, to your radio or your online music site.
 
 == Description ==
 
@@ -22,7 +21,7 @@ Thanks For Use and Evaluate!
 
 = PT-BR - Portugues do Brasil =
 
-O Plugin PlayerZBR permite o usuario a adicionar um player em HTML 5, usando a sua url de seu streaming, ideal parta radios online e site de musicos.
+O Plugin PlayerZBR permite o usuario a adicionar um player em HTML 5, usando a sua url de seu streaming, ideal para radios online e site de musicos.
 Feito com HTML 5 visa a melhor performance para seus usuarios!
 
 Obrigado Por Usar e Avaliem!
@@ -34,12 +33,6 @@ Obrigado Por Usar e Avaliem!
 1. Activate the plugin through the 'Plugins' menu in WordPress
 1. Place `[playerzbr url="Your URL"]` in your website!
 
-== Frequently asked questions ==
-
-= A question that someone might have =
-
-An answer to that question.
-
 == Screenshots ==
 
 1. http://img824.imageshack.us/img824/1281/screenshot1vq.png - On Google Chrome
@@ -47,18 +40,11 @@ An answer to that question.
 == Changelog ==
 
 PlayerZBR 1.0 - was created
-
+
 PlayerZBR 1.1 - add option autoplay
-
+
 PlayerZBR 1.2 - add option width, bug fixed on IE 9, re design on plugin pages
-
+
 PlayerZBR 1.2.1 - bug headers already sent fixed
-
-PlayerZBR 1.3 - Re-design with Twitter Bootstrap, add support to firefox and minor bugs fixed  
-
-== Upgrade notice ==
-
-All Browsers Supports
-
-== Arbitrary section 1 ==
-
+
+PlayerZBR 1.3 - Re-design with Twitter Bootstrap, add support to firefox and minor bugs fixedPlayerZBR 1.4 - New reformulation in source code, new methods in shortcode and minor bugs fixed
