@@ -1,14 +1,14 @@
 === Playerzbr ===
 Contributors: 
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=6WQ566DAC4YF8
-Tags: player,playerzbr,streaming,html5,Player html5,audio,audio html5,shoutcast
+Tags: player,playerzbr,streaming,html5,Player html5,audio,audio html5,shoutcast,touch,responsive player
 Requires at least: 3.3
-Tested up to: 4.2.2
+Tested up to: 4.2.1
 Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-PlayerZBR is the best HTML5 responsive player.
+PlayerZBR is the best HTML5 responsive touch-friendly player.
 
 == Description ==
 
@@ -53,3 +53,5 @@ PlayerZBR 1.3 - Re-design with Twitter Bootstrap, add support to firefox and min
 PlayerZBR 1.4 - New reformulation in source code, new methods in shortcode and minor bugs fixed
 
 PlayerZBR 1.5 - New Design, included Responsive support
+
+PlayerZBR 1.5.1 - Fixed bug on Google Chrome
