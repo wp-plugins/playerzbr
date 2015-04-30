@@ -6,7 +6,7 @@ Plugin Name: PlayerZBR
 
 Description: PlayerZBR is the best HTML5 responsive player.
 
-Version: 1.5
+Version: 1.5.1
 
 Author: Pedro Laxe
 
@@ -52,7 +52,7 @@ License: GPLv2
 
  */
 
-$versionzbr = '1.5';
+$versionzbr = '1.5.1';
 
 add_action( 'init', 'plx_option' );
 
@@ -121,6 +121,7 @@ function plx_install_hook() {
  *
 
  * Update 1.4 - Create multiples players on shortcode method
+ * Update 1.5.1 - Added preload function to fix chrome bug
 
  */
 
@@ -154,19 +155,11 @@ function add_player($atts, $content = null) {
 	}
 
 	$player = '
-
-<div class="playerzbr">
-	<audio controls '.ver_autoplay($autoplay).'>
+	<audio controls '.ver_autoplay($autoplay).' preload="auto">
   <source src="'.$url.'" type="audio/mpeg">
   <source src="'.$url.'" type="audio/ogg">
   Your browser does not support the audio element.
-
 	</audio>
-
-
-
-</div>
-
 	';
 
 	return $player;
@@ -299,7 +292,7 @@ function plx_pagina_opcoes_content() {
   <table width="250" border="0">
     <tr>
       <td><strong>Plugin Developer:</strong></td>
-      <td>Pedro Laxe</td>
+      <td><a href="http://phpsec.com.br">Pedro Laxe</a></td>
     </tr>
     <tr>
       <td><strong>Plugin Version:</strong></td>
@@ -323,7 +316,7 @@ function plx_pagina_opcoes_content() {
   <table width="800" border="0">
     <tr>
       <td><font size="2"><strong>Usage methods:</strong></font></td>
-      <td><p><font size="2">Text mode: &#91;playerzbr&#93; &nbsp;&nbsp;|&nbsp;&nbsp; PHP mode: &#60;?php echo do_shortcode( '&#91;playerzbr&#93;' ); ?&#62;</font></p></td>
+      <td><p><font size="2">Text mode: &#91;playerzbr url="Your URL"&#93; &nbsp;&nbsp;|&nbsp;&nbsp; PHP mode: &#60;?php echo do_shortcode( '&#91;playerzbr url="Your URL"&#93;' ); ?&#62;</font></p></td>
     </tr>
     <tr>
       <td><strong>Options:</strong></td>
